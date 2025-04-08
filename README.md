@@ -22,7 +22,7 @@ API RESTful para cadastro, busca, atualização e remoção de veículos, com au
 
 ```bash
 git clone https://github.com/Gustavo-DSN/BackEnd-Garagem.git
-cd vehicle-api
+cd BackEnd-Garagem
 ```
 
 2. **Instale as dependências**
