@@ -131,7 +131,7 @@ src/
 ├── utils/             # Utilitários (queryBuilder, regex)
 ├── validations/       # Validações com Joi
 ├── routes/            # Rotas da aplicação
-└── server.js          # Ponto de entrada
+
 ```
 
 ---
