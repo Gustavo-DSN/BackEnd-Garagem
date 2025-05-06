@@ -143,3 +143,4 @@ Se tiver dúvidas ou sugestões, entre em contato:
 -   Nome: **Gustavo Nascimento**
 -   Email: **gustavodasilveiranascimento@gmail.com**
 -   GitHub: [Gustavo-DSN](https://github.com/Gustavo-DSN)
+-   Linkedin: [Gustavo Nascimento](https://www.linkedin.com/in/gustavo-nascimento-48a335253/)
