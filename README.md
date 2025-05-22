@@ -13,6 +13,7 @@ API RESTful para cadastro, busca, atualização e remoção de veículos, com au
 -   JWT (autenticação)
 -   Bcrypt (hash de senha)
 -   Nodemon (ambiente de desenvolvimento)
+-   Swagger (documentação da API)
 
 ---
 
@@ -63,6 +64,13 @@ A API será iniciada em: `http://localhost:3000`
 | POST   | `/login`    | Login do usuário    |
 
 > **Nota**: O login retorna um token JWT que deve ser enviado no header `Authorization` como `Bearer {token}` para rotas protegidas.
+
+📚 Documentação com Swagger
+Acesse a documentação interativa da API via Swagger:
+
+http://localhost:3000/api-docs
+
+Com ela, você pode explorar os endpoints, testar requisições e entender os dados de entrada e saída da aplicação.
 
 ---
 
