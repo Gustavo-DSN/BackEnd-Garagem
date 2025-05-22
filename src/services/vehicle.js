@@ -1,18 +1,6 @@
 const Vehicle = require("../models/vehicle.models");
 const queryBuilder = require("../utils/buildVehicleQuery");
 
-const getAllVehicles = async () => {
-	try {
-		const vehicles = await Vehicle.find();
-
-		return vehicles;
-	} catch (error) {
-		throw new Error(
-			`Erro ao tentar listar todos os veículos. ${error.message}`
-		);
-	}
-};
-
 const createOneVehicle = async (data) => {
 	try {
 		const newVehicle = await Vehicle.create(data);
@@ -75,7 +63,6 @@ const updateOneVehicleById = async (id, updateData) => {
 };
 
 module.exports = {
-	getAllVehicles,
 	createOneVehicle,
 	getVehicleByFilter,
 	deleteOneVehicleById,

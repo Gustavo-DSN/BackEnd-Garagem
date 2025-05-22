@@ -4,22 +4,6 @@ const {
 	vehicleUpdateSchema,
 } = require("../validations/vehicleValidation");
 
-const getAllVehiclesInDb = async (req, res) => {
-	try {
-		const vehicles = await vehicleServices.getAllVehicles();
-
-		console.log(vehicles[0]);
-
-		res.status(200).json({
-			vehicles,
-		});
-	} catch (error) {
-		res.status(500).json({
-			errorMessage: error,
-		});
-	}
-};
-
 const createVehicle = async (req, res) => {
 	try {
 		const { error } = vehicleSchema.validate(req.body, {
@@ -95,7 +79,6 @@ const updateOneVehicle = async (req, res) => {
 };
 
 module.exports = {
-	getAllVehiclesInDb,
 	createVehicle,
 	searchVehicleByFilters,
 	deleteVehicle,
