@@ -78,10 +78,9 @@ Com ela, você pode explorar os endpoints, testar requisições e entender os da
 
 #### 📖 Públicos
 
-| Método | Rota        | Descrição                              |
-| ------ | ----------- | -------------------------------------- |
-| GET    | `/vehicles` | Lista todos os veículos                |
-| GET    | `/vehicle`  | Busca veículos com filtros via `query` |
+| Método | Rota        | Descrição                                        |
+| ------ | ----------- | ------------------------------------------------ |
+| GET    | `/vehicles`  | Busca todos os veículos com filtros via `query` |
 
 Exemplo de filtros:
 
