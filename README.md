@@ -85,7 +85,7 @@ Com ela, você pode explorar os endpoints, testar requisições e entender os da
 Exemplo de filtros:
 
 ```bash
-GET /vehicle?brand=Fiat&priceMax=50000
+GET /vehicles?brand=Fiat&priceMax=50000
 ```
 
 #### 🔒 Protegidos (requer token JWT)
